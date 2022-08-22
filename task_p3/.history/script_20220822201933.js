@@ -1,0 +1,3 @@
+var college {
+    name
+}

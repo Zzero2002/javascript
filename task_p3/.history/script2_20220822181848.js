@@ -1,0 +1,1 @@
+var arr = ["Apple", "mango", "strawberry", "Orange", "watermelon"]
