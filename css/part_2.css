@@ -1,0 +1,60 @@
+.form{
+    margin:220px auto;
+    display: block;
+    background-color: whitesmoke;
+    width:500px;
+    height:320px;
+    border-radius: 10px;
+    box-shadow: 1px black;
+    }
+    .form ul{
+        list-style: none;
+        padding:20px;
+        margin:0;
+    }
+    .form ul li{
+        padding:20px;
+        font-size:18px;
+        border:1px solid black;
+    }
+    .form ul li span{
+        margin-bottom:0px;
+        float:right;
+
+    }
+    .form ul li span button{
+        border:none;
+        background:none;
+        font-size:20px;
+        padding:5px;
+        cursor:pointer;
+    
+    }
+    .form ul li span .bt1{
+        background:green;
+        margin-left:10px;
+    }
+    .form ul li span .bt2{
+        background:red;
+    }
+    .addition{
+        margin:auto;
+        text-align: center;
+        margin-top:20px;
+    }
+    .addition label{
+        font-size:18px;
+        margin-right:10px;
+    }
+    .addition input{
+        padding:5px 10px;
+    }
+    .addition button{
+        background:green;
+        outline:none;
+        border:none;
+        color:white;
+        padding:8px 12px;
+        cursor:pointer
+    }
+    
