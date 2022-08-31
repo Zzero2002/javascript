@@ -48,8 +48,8 @@ function function1() {
     var x = document.getElementById("text").value
     li.appendChild(document.createTextNode(x));
     ul.appendChild(li);
-    button1.setAttribute("class","bt1");
-    button2.setAttribute("class","bt2");
+    button1.classList.add("bt1");
+    button2.classList.add("bt2");
     button1.style.float="right";
     button2.style.float="right";
 
@@ -58,5 +58,19 @@ function function1() {
     li.setAttribute("class", "lists4");
 
   }
+
+function deleted4(){
+    document.getElementsByClassName("list");
+var red = document.getElementsByClassName("lists4")[0];
+red.parentNode.removeChild(red)
+}
+function checky4(){
+document.getElementsByClassName("list");
+var green = document.getElementsByClassName("lists4")[0];
+green.style.background = "green";
+green.style.border = "2px solid black";
+
+}
+
 
 

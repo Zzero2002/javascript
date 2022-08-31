@@ -22,19 +22,20 @@
         float:right;
 
     }
-    .form ul li span button{
+    .form ul li button{
         border:none;
         background:none;
         font-size:20px;
         padding:5px;
         cursor:pointer;
+        float:right;
     
     }
-    .form ul li span .bt1{
+    .form ul li .bt1{
         background:green;
         margin-left:10px;
     }
-    .form ul li span .bt2{
+    .form ul li .bt2{
         background:red;
     }
     .addition{
