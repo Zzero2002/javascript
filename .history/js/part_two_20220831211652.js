@@ -69,6 +69,7 @@ document.getElementsByClassName("list");
 var green = document.getElementsByClassName("lists4")[0];
 green.style.background = "green";
 green.style.border = "2px solid black";
+
 }
 
 
