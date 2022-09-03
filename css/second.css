@@ -1,0 +1,36 @@
+ body {
+    background: rgb(135, 51, 51);
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    color: #fff;
+    margin: 250px 0 0 0;
+  }
+  
+  button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: 0;
+    color: #fff;
+    transition: all ease 300ms;
+  }
+  button:hover {
+    color: #333;
+    background: #fff;
+  }
+  
+  
+  /* variable misc classes */
+  .hide {
+    display: none;
+  }
+  audio{
+    display: none;
+  }
